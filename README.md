@@ -1,3 +1,3 @@
-# Mastering React JS (⚠️  Development Repo!)
+# Mastering React.JS
 
-Author: Abhijay Rajvansh
+Author: [Abhijay Rajvansh](https://linkedin.com/in/abhijayrajvansh)
