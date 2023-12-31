@@ -1,0 +1,6 @@
+.todoContainer {
+    width: 250px;
+    border: 2px dashed tomato;
+    padding: 10px;
+    margin: 10px;
+}
