@@ -1,0 +1,38 @@
+.counterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttonINC {
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.buttonDEC {
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: tomato;
+    cursor: pointer;
+}

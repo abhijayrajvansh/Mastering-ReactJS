@@ -1,0 +1,15 @@
+.mainCanvas {
+    display: flex;
+    justify-content: center;
+}
+
+.Toggler {
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: Blue;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
