@@ -1,12 +1,12 @@
-import React from 'react';
-import './style.css'
+import React from "react";
+import "./style.css";
 
-const Todoitem: React.FC = () => {
-    return (
-        <li>
-            Code
-        </li>
-    )
+interface TodoitemsProps {
+  title: string;
 }
 
-export default Todoitem
+const Todoitem: React.FC<TodoitemsProps> = (props) => {
+  return <li>{props.title}</li>;
+};
+
+export default Todoitem;
