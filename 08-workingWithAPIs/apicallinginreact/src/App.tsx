@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const App: React.FC = () => {
-  return <h1>Hello from App.tsx</h1>;
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/posts")
+      .then((res) => res)
+      .then((data) => data.json())
+      .then((e) => setData(e));
+  }, []);
+
+  return (
+    <div className="mainContainer">
+      App
+    </div>
+  )
 };
 
 export default App;
