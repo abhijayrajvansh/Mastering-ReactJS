@@ -8,6 +8,8 @@ const App: React.FC = () => {
       .then((res) => res)
       .then((data) => data.json())
       .then((e) => setData(e));
+
+      // this data can be seen in console in a form of array
   }, []);
 
   return (
